@@ -7,17 +7,25 @@ describe "Strings" do
       "Ruby Course".should eq 'Ruby Course'
     end
     
-    it "are of class String"
+    it "are of class String" do
+	  "Ruby Course".class.should eq String
+    end
     
-    it "can contain bare single-quote (') characters"
+    it "can contain bare single-quote (') characters" do
+	  "Ruby Course\'s".should eq "Ruby Course's"
+	end
     
-    it "allow the escape of double quote (\") characters"
+    it "allow the escape of double quote (\") characters"  do
+	  "Ruby Course\"".should eq "Ruby Course"
+	end
     
-    it "allow interpolation (Ruby code within the string)"
+    it "allow interpolation (Ruby code within the string)" 
     
-    it "replace \t with a tab character"
+    it "replace \t with a tab character" do
+	  "\t\"Ruby Course\"".should eq "	Ruby Course"
+	end
 
-    it "ADD AN EXAMPLE THAT TESTS A DIFFERENT ESCAPE SEQUENCE"
+    it "ADD AN EXAMPLE THAT TESTS A DIFFERENT ESCAPE SEQUENCE" 
 
     it "replaceS special characters when values are specified at the end via '% [value]'"
     
@@ -29,7 +37,9 @@ describe "Strings" do
       'Alfred E. Newman'.should eq "Alfred E. Newman"
     end
     
-    it "are of class String"
+    it "are of class String" do
+	'two'.class.should eq String
+  end
     
     it "allow double-quote (\") characters"
 
