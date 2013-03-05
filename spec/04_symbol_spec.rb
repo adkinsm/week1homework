@@ -9,19 +9,21 @@ describe "Symbols" do
   end
 
   it "are of class Symbol" do
-    "Symbols".class.should eq Symbol
+    :Symbol.should be_a_kind_of(Symbol)
   end
   
   it "are not the same as a string of the same characters"
   
   it "are convertable to strings" do
-    "Symbols".to_s
+    "Symbols".class.to_s
   end
 
   it "are convertable from a string" do
-    "Strings".to_sym
+    should change {:Symbol}.from(String)
   end
 
-  it "automatically converts to a string when interpolated"
+  it "automatically converts to a string when interpolated" do
+
+  end
   
 end

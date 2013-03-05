@@ -23,7 +23,7 @@ describe 'Everything is an Object!' do
   end	
 
   it 'Hashes are objects' do
-      numbers["one"].should be_a Object
+      Hash["a", 100, "b", 200].should be_a Object
   end
 
   it 'Arrays are objects' do
@@ -37,7 +37,7 @@ describe 'Everything is an Object!' do
   end
 
   it 'Classes are objects' do
-      _FILE_.should be_a Object
+     Class.new.should be_a Object
   end
 
   it 'ADD ANY EXAMPLE THAT EVALUATES AN OBJECT' do

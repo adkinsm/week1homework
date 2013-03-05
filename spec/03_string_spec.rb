@@ -16,7 +16,7 @@ describe "Strings" do
 	end
     
     it "allow the escape of double quote (\") characters"  do
-	  "Ruby Course\"".should eq "Ruby Course"
+	  "\"Ruby Course\"".should eq "Ruby Course"
 	end
     
     it "allow interpolation (Ruby code within the string)" 
@@ -25,7 +25,7 @@ describe "Strings" do
 	  "\t\"Ruby Course\"".should eq "	Ruby Course"
 	end
 
-    it "ADD AN EXAMPLE THAT TESTS A DIFFERENT ESCAPE SEQUENCE" 
+    it "ADD AN EXAMPLE THAT TESTS A DIFFERENT ESCAPE SEQUENCE"
 
     it "replaceS special characters when values are specified at the end via '% [value]'"
     
@@ -38,7 +38,7 @@ describe "Strings" do
     end
     
     it "are of class String" do
-	'two'.class.should eq String
+	    'two'.class.should eq String
   end
     
     it "allow double-quote (\") characters"
@@ -57,7 +57,10 @@ describe "Strings" do
       %Q@<span style='color:blue'>"1 + 1 = #{1 + 1}"</span>@.should eq '<span style=\'color:blue\'>"1 + 1 = 2"</span>'
     end
 
-    it "can omit the Q and just use %{}"
+    it "can omit the Q and just use %{}" do
+      %Q@<span style='color:blue'>"1 + 1 = #{1 + 1}"</span>@.should eq '<span style=\'color:blue\'>"1 + 1 = 2"</span>'
+    end
+
 
     it "created with the pattern %q supports arbitrary delimiters and behave like a single quoted string"
 

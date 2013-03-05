@@ -29,11 +29,11 @@ describe "Integers" do
   end
 
   it "are usually of class Fixnum" do
-     x.is_a Fixnum
+    3.should be_a_kind_of(Fixnum)
   end
 
   it "that are are very large are of class Bignum" do
-      999999.is_a Bignum
+    1234567890.should be_a_kind_of(Bignum)
   end
 
   it "are returned from Integers calculations" do
