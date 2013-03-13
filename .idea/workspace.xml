@@ -19,10 +19,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="00_rspec_spec.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="00_rspec_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/00_rspec_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="59" selection-start="347" selection-end="347" vertical-scroll-proportion="0.26288658">
+            <state line="9" column="59" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -31,7 +31,7 @@
       <file leaf-file-name="01_object_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/01_object_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="31" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0">
+            <state line="27" column="34" selection-start="589" selection-end="618" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -46,10 +46,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="03_string_spec.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="03_string_spec.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/03_string_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="31" selection-start="996" selection-end="996" vertical-scroll-proportion="0.0">
+            <state line="50" column="85" selection-start="1211" selection-end="1211" vertical-scroll-proportion="0.82092196">
               <folding />
             </state>
           </provider>
@@ -80,10 +80,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="1" />
+    <option name="y" value="1" />
+    <option name="width" value="1364" />
+    <option name="height" value="726" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -111,6 +111,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -189,7 +190,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -209,14 +209,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="1" y="1" width="1364" height="726" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26060605" sideWeight="0.6705107" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26881722" sideWeight="0.6705107" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294893" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -368,9 +368,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/03_string_spec.rb">
+    <entry file="file://$PROJECT_DIR$/spec/00_rspec_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="31" selection-start="996" selection-end="996" vertical-scroll-proportion="0.0">
+        <state line="9" column="59" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/01_object_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="34" selection-start="589" selection-end="618" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -382,16 +389,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/01_object_spec.rb">
+    <entry file="file://$PROJECT_DIR$/spec/03_string_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="31" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/00_rspec_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="59" selection-start="347" selection-end="347" vertical-scroll-proportion="0.26288658">
+        <state line="50" column="85" selection-start="1211" selection-end="1211" vertical-scroll-proportion="0.82092196">
           <folding />
         </state>
       </provider>
