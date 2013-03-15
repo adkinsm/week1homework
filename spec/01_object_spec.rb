@@ -30,14 +30,17 @@ describe 'Everything is an Object!' do
       [1, 2, 3].should be_a Object
   end
 
-  it 'Expressions evaluate to objects'
+  it 'Expressions evaluate to objects' do
+    (2*2).should be_a Object
+
+  end
 
   it 'Symbols are objects' do
       :symbol.should be_a Object
   end
 
   it 'Classes are objects' do
-     Class.new.should be_a Object
+     Class.should be_a Object
   end
 
   it 'ADD ANY EXAMPLE THAT EVALUATES AN OBJECT' do

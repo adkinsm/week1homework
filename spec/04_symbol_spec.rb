@@ -12,14 +12,17 @@ describe "Symbols" do
     :Symbol.should be_a_kind_of(Symbol)
   end
   
-  it "are not the same as a string of the same characters"
+  it "are not the same as a string of the same characters"  do
+    :sym.should_not eq "sym"
+
+  end
   
   it "are convertable to strings" do
-    "Symbols".class.to_s
+    :symbol.to_s.should eq "symbol"
   end
 
   it "are convertable from a string" do
-    should change {:Symbol}.from(String)
+    "string".to_sym.should eq :string
   end
 
   it "automatically converts to a string when interpolated" do

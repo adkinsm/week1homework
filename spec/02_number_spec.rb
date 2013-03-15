@@ -33,7 +33,7 @@ describe "Integers" do
   end
 
   it "that are are very large are of class Bignum" do
-    1234567890.should be_a_kind_of(Bignum)
+    1234567890724385742389577923475980327598230.should be_a_kind_of(Bignum)
   end
 
   it "are returned from Integers calculations" do

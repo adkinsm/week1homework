@@ -16,16 +16,18 @@ describe "Strings" do
 	end
     
     it "allow the escape of double quote (\") characters"  do
-	  "\"Ruby Course\"".should eq "Ruby Course"
-	end
+	  "\"Ruby Course\"".should eq '"Ruby Course"'
+    end
     
     it "allow interpolation (Ruby code within the string)" 
     
     it "replace \t with a tab character" do
-	  "\t\"Ruby Course\"".should eq "	Ruby Course"
+	  "\t".size.should eq 1
 	end
 
-    it "ADD AN EXAMPLE THAT TESTS A DIFFERENT ESCAPE SEQUENCE"
+    it "ADD AN EXAMPLE THAT TESTS A DIFFERENT ESCAPE SEQUENCE"  do
+      "\n".size.should eq 1
+    end
 
     it "replaceS special characters when values are specified at the end via '% [value]'"
     
@@ -41,13 +43,19 @@ describe "Strings" do
 	    'two'.class.should eq String
   end
     
-    it "allow double-quote (\") characters"
+    it "allow double-quote (\") characters" do
+      '"'.should eq "\""
+    end
 
-    it "allow the escape of single quote (') characters"
+    it "allow the escape of single quote (') characters"  do
+      '\''.should eq "'"
+    end
     
     it "does not interpolate Ruby code"
     
-    it "does not escape newline characters"
+    it "does not escape newline characters"   do
+      '\n'.should eq "\\n"
+    end
     
   end
 
