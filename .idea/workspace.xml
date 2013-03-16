@@ -58,7 +58,7 @@
       <file leaf-file-name="04_symbol_spec.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/04_symbol_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="13" selection-start="446" selection-end="446" vertical-scroll-proportion="0.4822695">
+            <state line="20" column="35" selection-start="528" selection-end="528" vertical-scroll-proportion="0.5319149">
               <folding />
             </state>
           </provider>
@@ -111,7 +111,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -190,6 +189,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -216,7 +216,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26881722" sideWeight="0.6705107" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2734255" sideWeight="0.6705107" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294893" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -391,7 +391,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/04_symbol_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="13" selection-start="446" selection-end="446" vertical-scroll-proportion="0.4822695">
+        <state line="20" column="35" selection-start="528" selection-end="528" vertical-scroll-proportion="0.5319149">
           <folding />
         </state>
       </provider>
